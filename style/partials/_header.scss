@@ -1,0 +1,49 @@
+
+.header__logo {
+    background-color: rgb(172, 61, 61);
+  }
+  .header__titulo {
+    text-align: center;
+    background-color: rgb(172, 61, 61);
+  }
+  .header__subtitulo {
+    text-align: center;
+  }
+  
+.menu {
+    color: rgb(12, 12, 12);
+    list-style-type: none;
+    font-weight: 900;
+    font-size: 30;
+    background-color: rgb(172, 61, 61);
+    margin-left: 10px;
+    margin-right: 200px;
+    text-decoration: none;
+  }
+  .menu__li {
+    list-style-type: none;
+    color: rgb(12, 12, 12);
+    display: inline-block;
+    margin: 70px;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu__a {
+    color: rgb(12, 12, 12);
+    margin-right: 30px;
+    margin-left: 55 px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  
+  .menu__li:hover {
+    background-color: white;
+    color: gray;
+    border: 2px
+  }
+  
+  .menu__li:nth-child(1) {
+    background-color: white;
+  }

@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(172, 61, 61);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .footer__social {
+    height: 200px;
+    padding: 30px;
+    background-image: url(./../assets/imagenes/patron-vaca-costuras-patron-manchas-vaca-estampado-vaca_595252-15.jpg);
+  }
+  .footer__social--h5 {
+    background-position: left;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(221, 19, 19);
+  }
+  .footer__social--a {
+    padding: 10px;
+  }
+  .footer__redes {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    size: 50px;
+  }
+  .footer__redes--li {
+    display: inline-block;
+    height: 50px;
+  }
+  

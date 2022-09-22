@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/imagenes/Logo.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style/estilo.css" />
+    <script src="https://kit.fontawesome.com/9a50b5e0f6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header__logo">
+      <img
+        src="./assets/imagenes/logo.jpeg"
+        alt="logo de la empresa"
+        width="100"
+        height="100"
+      />
+      <h1 class="header__titulo">Bienvenidos a Quality Milk</h1>
+      <h2 class="header__subtitulo">Consultora de Calidad de Leche</h2>
+      <nav>
+        <ul class="menu">
+          <li class="menu__li">
+            <a menu="menu__a" href="index.html"> Inicio</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="quienessomos.html"> Quienes somos</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="servicios.html"> Servicios</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu_a" href="contactos.html">Contactos </a>
+          </li>
+          <li class="menu__li">
+            <a class="menu_a" href="mastitis.html">Mastitis</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <table border="1">
+      <tr>
+        <th>Nombre</th>
+        <th>Telefono</th>
+        <th>Dirección</th>
+      </tr>
+      <tr>
+        <td>Enriqueta Dominguez</td>
+        <td>(494)15654584</td>
+        <td>España 723</td>
+      </tr>
+      <tr>
+        <td>Carolina Ledesma</td>
+        <td>42424445523</td>
+        <td>Montiel 770</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <form>
+      <label for="nombre">
+        Nombre
+        <input type="text" id="nombre" required />
+      </label>
+      <label for="email">
+        Email
+        <input type="email" id="email" required />
+      </label>
+      <label for="numero"> Numero </label>
+      <input type="number" id="numero" required />
+      <label for="mensaje">
+        mensaje
+        <textarea name="mensaje" id="" cols="30" rows="10" required></textarea>
+      </label>
+      <label for="si"> <input type="radio" name="siono" id="si" />si </label>
+      <label for="no"> <input type="radio" id="no" name="siono" />no </label>
+
+      <button type="submit">enviar</button>
+      <button type="reset">reset</button>
+    </form>
+
+    <br />
+
+    <h4>
+      Para saber más sobre nuestros servicios, te invitamos a escribirnos por
+      privado 📩 y conocer cómo quality milk puede ayudarte en eso que estás
+      necesitando🤗
+    </h4>
+
+    <footer class="footer">
+      <h6>2022-Todos los derechos reservados</h6>
+      <div class="footer__social">
+        <h5 class="footer__social--h5">SEGUINOS EN IG :</h5>
+        <ul class="footer__redes">
+          <li class="footer_redes--li">
+            <a href="https://www.instagram.com/quality.milk/">
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  </body>
+</html>
